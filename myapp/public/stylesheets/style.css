@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+header {
+  background: url('../images/head2.png') center;
+  background-size: cover;
+  height: 21em;
+}
+footer {
+  background: url('../images/footer.png') repeat-x bottom;
+  background-size: cover;
+  height: 5em;
+  vertical-align: bottom;
+  margin-top: 2em ;
+  position: relative;
+}
+footer nav {
+  position: absolute;
+  bottom: 0;
+}
+footer li {
+  display: inline-block;
+  padding: 0.1em 1em;
+
+}
+footer li a {
+  vertical-align: bottom;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
